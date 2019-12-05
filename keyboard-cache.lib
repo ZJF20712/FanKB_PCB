@@ -301,24 +301,6 @@ X P3 3 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# conn_CONN_3X2
-#
-DEF conn_CONN_3X2 P 0 40 Y N 1 F N
-F0 "P" 0 250 50 H V C CNN
-F1 "conn_CONN_3X2" 0 50 40 V V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -100 200 100 -100 0 1 0 N
-X 1 1 -400 150 300 R 60 60 1 1 P I
-X 2 2 400 150 300 L 60 60 1 1 P I
-X 3 3 -400 50 300 R 60 60 1 1 P I
-X 4 4 400 50 300 L 60 60 1 1 P I
-X 5 5 -400 -50 300 R 60 60 1 1 P I
-X 6 6 400 -50 300 L 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
 # device_C
 #
 DEF device_C C 0 10 N Y 1 F N
@@ -421,11 +403,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard-rescue_HRO-TYPE-C-31-M-12-Type-C
+# keyboard-rescue_HRO-TYPE-C-31-M-12-Type-C-keyboard-rescue-keyboard-rescue
 #
-DEF keyboard-rescue_HRO-TYPE-C-31-M-12-Type-C USB 0 40 Y Y 1 F N
+DEF keyboard-rescue_HRO-TYPE-C-31-M-12-Type-C-keyboard-rescue-keyboard-rescue USB 0 40 Y Y 1 F N
 F0 "USB" -200 650 60 H V C CNN
-F1 "keyboard-rescue_HRO-TYPE-C-31-M-12-Type-C" -400 -50 60 V V C CNN
+F1 "keyboard-rescue_HRO-TYPE-C-31-M-12-Type-C-keyboard-rescue-keyboard-rescue" -400 -50 60 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -447,11 +429,11 @@ X SBU1 9 100 -250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# keyboard-rescue_MDBT40-mdbt40
+# keyboard-rescue_MDBT40-mdbt40-keyboard-rescue-keyboard-rescue
 #
-DEF keyboard-rescue_MDBT40-mdbt40 U 0 40 Y Y 1 F N
+DEF keyboard-rescue_MDBT40-mdbt40-keyboard-rescue-keyboard-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 950 60 H V C CNN
-F1 "keyboard-rescue_MDBT40-mdbt40" 0 0 60 H V C CNN
+F1 "keyboard-rescue_MDBT40-mdbt40-keyboard-rescue-keyboard-rescue" 0 0 60 H V C CNN
 F2 "" 350 250 60 H I C CNN
 F3 "" 350 250 60 H I C CNN
 DRAW

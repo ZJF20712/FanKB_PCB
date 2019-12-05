@@ -10,6 +10,6 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/lib/random-keyboard-parts.pretty-master/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name ws2812b)(type Legacy)(uri ${KIPRJMOD}/lib/WS2812B.pretty-master/Schematic-Symbol/ws2812b.lib)(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/lib/Type-C.pretty-master/Type-C.lib)(options "")(descr ""))
+  (lib (name XLED)(type Legacy)(uri ${KIPRJMOD}/lib/Driver_LED.lib)(options "")(descr ""))
   (lib (name keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard-rescue.lib)(options "")(descr ""))
-  (lib (name XLED)(type Legacy)(uri ${KIPRJMOD}/Driver_LED.lib)(options "")(descr ""))
 )

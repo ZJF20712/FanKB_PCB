@@ -807,7 +807,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 6050 6100 6050
 $Comp
-L keyboard-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
+L keyboard-rescue:HRO-TYPE-C-31-M-12-Type-C-keyboard-rescue-keyboard-rescue USB1
 U 1 1 5CA4F6EF
 P 1050 5900
 F 0 "USB1" H 900 6750 60  0000 C CNN
@@ -931,8 +931,6 @@ Wire Wire Line
 Wire Wire Line
 	10650 4250 10650 3950
 Wire Wire Line
-	10650 3950 10050 3950
-Wire Wire Line
 	10650 4250 10250 4250
 Wire Wire Line
 	9050 6350 9050 5800
@@ -981,53 +979,13 @@ F 3 "" H 10250 6350 50  0001 C CNN
 	1    10250 6350
 	1    0    0    -1  
 $EndComp
-Connection ~ 10050 3950
+Connection ~ 10650 3950
 Wire Wire Line
-	10050 3950 8650 3950
-Wire Wire Line
-	9350 3450 9050 3450
-Wire Wire Line
-	9350 3550 9050 3550
-Wire Wire Line
-	10150 3450 10650 3450
-Text Label 10500 3350 2    60   ~ 0
-SWCLK
-Text Label 10650 3450 2    60   ~ 0
-FACRST
-Text Label 9050 3550 0    60   ~ 0
-DFU
-Text Label 9350 2950 0    60   ~ 0
+	10650 3950 8650 3950
+Text Label 9950 3600 0    60   ~ 0
 CONed
 Wire Wire Line
-	10050 3600 10150 3600
-Wire Wire Line
-	10750 3600 10750 2950
-Wire Wire Line
-	10750 2950 10200 2950
-Wire Wire Line
-	9350 2950 9800 2950
-$Comp
-L conn:CONN_3X2 P1
-U 1 1 5CB2F6F0
-P 9750 3500
-F 0 "P1" H 9750 3850 50  0000 C CNN
-F 1 "CONN_3X2" H 9750 3766 40  0000 C CNN
-F 2 "random-keyboard-parts:Jumper-UserFriendly" H 9750 3500 60  0001 C CNN
-F 3 "" H 9750 3500 60  0001 C CNN
-	1    9750 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 3350 9250 3350
-Wire Wire Line
-	10150 3350 10500 3350
-Wire Wire Line
-	10150 3550 10150 3600
-Connection ~ 10150 3600
-Wire Wire Line
-	10150 3600 10750 3600
-Text Label 9050 3450 0    60   ~ 0
-DIO_RST
+	9950 3600 10250 3600
 NoConn ~ 8650 5550
 NoConn ~ 8650 5650
 NoConn ~ 8650 5750
@@ -1052,12 +1010,12 @@ NoConn ~ 10650 4450
 $Comp
 L device:LED D3
 U 1 1 5CCBB02F
-P 10000 2950
-F 0 "D3" H 10000 3165 50  0000 C CNN
-F 1 "LED" H 10000 3074 50  0000 C CNN
-F 2 "0805:0805D" H 10000 2950 60  0001 C CNN
-F 3 "" H 10000 2950 60  0001 C CNN
-	1    10000 2950
+P 10450 3600
+F 0 "D3" H 10450 3815 50  0000 C CNN
+F 1 "LED" H 10450 3724 50  0000 C CNN
+F 2 "0805:0805D" H 10450 3600 60  0001 C CNN
+F 3 "" H 10450 3600 60  0001 C CNN
+	1    10450 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1121,7 +1079,7 @@ Connection ~ 8650 4850
 Wire Wire Line
 	8500 4850 8650 4850
 Wire Wire Line
-	8500 3350 8500 4850
+	8500 3800 8500 4850
 $Comp
 L device:C C11
 U 1 1 5CC8BABB
@@ -1490,14 +1448,11 @@ Connection ~ 10900 1050
 Wire Wire Line
 	10900 1050 10950 1050
 Wire Wire Line
-	10950 2200 10950 2700
+	10950 2200 10950 3250
 Wire Wire Line
-	10950 2700 9250 2700
+	10950 3250 8500 3250
 Wire Wire Line
-	9250 2700 9250 3350
-Connection ~ 9250 3350
-Wire Wire Line
-	9250 3350 8500 3350
+	8500 3250 8500 3800
 Wire Wire Line
 	8000 4850 8500 4850
 $Comp
@@ -1591,11 +1546,11 @@ Wire Wire Line
 Wire Wire Line
 	8600 1500 8600 1600
 Wire Wire Line
-	10050 3600 10050 3950
+	10650 3600 10650 3950
 Wire Wire Line
 	8650 3950 8650 4250
 $Comp
-L keyboard-rescue:MDBT40-mdbt40 U2
+L keyboard-rescue:MDBT40-mdbt40-keyboard-rescue-keyboard-rescue U2
 U 1 1 5CB207A8
 P 9700 5050
 F 0 "U2" H 9650 6097 60  0000 C CNN
