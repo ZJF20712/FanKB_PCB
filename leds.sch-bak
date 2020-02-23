@@ -1,0 +1,1648 @@
+EESchema Schematic File Version 4
+LIBS:keyboard-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date "17 jul 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:WS2812B RGB1
+U 1 1 5CAD0E1E
+P 1300 950
+F 0 "RGB1" H 1550 1150 50  0000 L CNN
+F 1 "WS2812B" H 1500 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 1350 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 575 50  0001 L TNN
+	1    1300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB2
+U 1 1 5CAD0E8E
+P 2300 950
+F 0 "RGB2" H 2550 1150 50  0000 L CNN
+F 1 "WS2812B" H 2500 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 2350 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 575 50  0001 L TNN
+	1    2300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB3
+U 1 1 5CAD0ED4
+P 3200 950
+F 0 "RGB3" H 3450 1150 50  0000 L CNN
+F 1 "WS2812B" H 3400 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 3250 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3300 575 50  0001 L TNN
+	1    3200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB4
+U 1 1 5CAD0F47
+P 4150 950
+F 0 "RGB4" H 4400 1150 50  0000 L CNN
+F 1 "WS2812B" H 4350 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 4200 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4250 575 50  0001 L TNN
+	1    4150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB5
+U 1 1 5CAD0F85
+P 5050 950
+F 0 "RGB5" H 5300 1150 50  0000 L CNN
+F 1 "WS2812B" H 5250 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5100 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5150 575 50  0001 L TNN
+	1    5050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB6
+U 1 1 5CAD0FB7
+P 5850 950
+F 0 "RGB6" H 6100 1150 50  0000 L CNN
+F 1 "WS2812B" H 6050 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5900 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 575 50  0001 L TNN
+	1    5850 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB7
+U 1 1 5CAD0FEB
+P 6650 950
+F 0 "RGB7" H 6900 1150 50  0000 L CNN
+F 1 "WS2812B" H 6850 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 6700 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 575 50  0001 L TNN
+	1    6650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB8
+U 1 1 5CAD103D
+P 7400 950
+F 0 "RGB8" H 7650 1150 50  0000 L CNN
+F 1 "WS2812B" H 7600 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 7450 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 575 50  0001 L TNN
+	1    7400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB9
+U 1 1 5CAD139B
+P 8350 950
+F 0 "RGB9" H 8600 1150 50  0000 L CNN
+F 1 "WS2812B" H 8550 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 8400 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8450 575 50  0001 L TNN
+	1    8350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB10
+U 1 1 5CAD13F3
+P 9250 950
+F 0 "RGB10" H 9500 1150 50  0000 L CNN
+F 1 "WS2812B" H 9450 750 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 9300 650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9350 575 50  0001 L TNN
+	1    9250 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB11
+U 1 1 5CAD143F
+P 1300 1900
+F 0 "RGB11" H 1550 2100 50  0000 L CNN
+F 1 "WS2812B" H 1500 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 1350 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 1525 50  0001 L TNN
+	1    1300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB12
+U 1 1 5CAD14E1
+P 2300 1900
+F 0 "RGB12" H 2550 2100 50  0000 L CNN
+F 1 "WS2812B" H 2500 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 2350 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 1525 50  0001 L TNN
+	1    2300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB13
+U 1 1 5CAD1521
+P 3200 1900
+F 0 "RGB13" H 3450 2100 50  0000 L CNN
+F 1 "WS2812B" H 3400 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 3250 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3300 1525 50  0001 L TNN
+	1    3200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB14
+U 1 1 5CAD15BB
+P 4150 1900
+F 0 "RGB14" H 4400 2100 50  0000 L CNN
+F 1 "WS2812B" H 4350 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 4200 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4250 1525 50  0001 L TNN
+	1    4150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB15
+U 1 1 5CAD1603
+P 5050 1900
+F 0 "RGB15" H 5300 2100 50  0000 L CNN
+F 1 "WS2812B" H 5250 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5100 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5150 1525 50  0001 L TNN
+	1    5050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB16
+U 1 1 5CAD165B
+P 5850 1900
+F 0 "RGB16" H 6100 2100 50  0000 L CNN
+F 1 "WS2812B" H 6050 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5900 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 1525 50  0001 L TNN
+	1    5850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB17
+U 1 1 5CAD16AD
+P 6700 1900
+F 0 "RGB17" H 6950 2100 50  0000 L CNN
+F 1 "WS2812B" H 6900 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 6750 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 1525 50  0001 L TNN
+	1    6700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB18
+U 1 1 5CAD16FF
+P 7400 1900
+F 0 "RGB18" H 7650 2100 50  0000 L CNN
+F 1 "WS2812B" H 7650 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 7450 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 1525 50  0001 L TNN
+	1    7400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB19
+U 1 1 5CAD1765
+P 8350 1900
+F 0 "RGB19" H 8600 2100 50  0000 L CNN
+F 1 "WS2812B" H 8550 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 8400 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8450 1525 50  0001 L TNN
+	1    8350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB20
+U 1 1 5CAD17F2
+P 9250 1900
+F 0 "RGB20" H 9500 2100 50  0000 L CNN
+F 1 "WS2812B" H 9450 1700 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 9300 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9350 1525 50  0001 L TNN
+	1    9250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB21
+U 1 1 5CAD18CA
+P 1300 2700
+F 0 "RGB21" H 1550 2900 50  0000 L CNN
+F 1 "WS2812B" H 1500 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 1350 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 2325 50  0001 L TNN
+	1    1300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB22
+U 1 1 5CAD1920
+P 2300 2700
+F 0 "RGB22" H 2550 2900 50  0000 L CNN
+F 1 "WS2812B" H 2500 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 2350 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 2325 50  0001 L TNN
+	1    2300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB23
+U 1 1 5CAD1974
+P 3200 2700
+F 0 "RGB23" H 3450 2900 50  0000 L CNN
+F 1 "WS2812B" H 3400 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 3250 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3300 2325 50  0001 L TNN
+	1    3200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB24
+U 1 1 5CAD19D0
+P 4150 2700
+F 0 "RGB24" H 4400 2900 50  0000 L CNN
+F 1 "WS2812B" H 4400 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 4200 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4250 2325 50  0001 L TNN
+	1    4150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB25
+U 1 1 5CAD1ACC
+P 5050 2700
+F 0 "RGB25" H 5300 2900 50  0000 L CNN
+F 1 "WS2812B" H 5250 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5100 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5150 2325 50  0001 L TNN
+	1    5050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB26
+U 1 1 5CAD1B38
+P 5850 2700
+F 0 "RGB26" H 6100 2900 50  0000 L CNN
+F 1 "WS2812B" H 6050 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5900 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 2325 50  0001 L TNN
+	1    5850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB27
+U 1 1 5CAD1BA2
+P 6700 2700
+F 0 "RGB27" H 6950 2900 50  0000 L CNN
+F 1 "WS2812B" H 6900 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 6750 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 2325 50  0001 L TNN
+	1    6700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB28
+U 1 1 5CAD1C0E
+P 7400 2700
+F 0 "RGB28" H 7650 2900 50  0000 L CNN
+F 1 "WS2812B" H 7600 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 7450 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 2325 50  0001 L TNN
+	1    7400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB29
+U 1 1 5CAD1D1E
+P 8350 2700
+F 0 "RGB29" H 8600 2900 50  0000 L CNN
+F 1 "WS2812B" H 8550 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 8400 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8450 2325 50  0001 L TNN
+	1    8350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB30
+U 1 1 5CAD1D86
+P 9250 2700
+F 0 "RGB30" H 9500 2900 50  0000 L CNN
+F 1 "WS2812B" H 9450 2500 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 9300 2400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9350 2325 50  0001 L TNN
+	1    9250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB31
+U 1 1 5CAD1EA8
+P 1300 3500
+F 0 "RGB31" H 1550 3700 50  0000 L CNN
+F 1 "WS2812B" H 1500 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 1350 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 3125 50  0001 L TNN
+	1    1300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB32
+U 1 1 5CAD1F20
+P 2300 3500
+F 0 "RGB32" H 2550 3700 50  0000 L CNN
+F 1 "WS2812B" H 2500 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 2350 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 3125 50  0001 L TNN
+	1    2300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB33
+U 1 1 5CAD1F94
+P 3200 3500
+F 0 "RGB33" H 3450 3700 50  0000 L CNN
+F 1 "WS2812B" H 3400 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 3250 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3300 3125 50  0001 L TNN
+	1    3200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB34
+U 1 1 5CAD2069
+P 4150 3500
+F 0 "RGB34" H 4400 3700 50  0000 L CNN
+F 1 "WS2812B" H 4350 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 4200 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4250 3125 50  0001 L TNN
+	1    4150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB35
+U 1 1 5CAD20ED
+P 5050 3500
+F 0 "RGB35" H 5300 3700 50  0000 L CNN
+F 1 "WS2812B" H 5250 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5100 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5150 3125 50  0001 L TNN
+	1    5050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB36
+U 1 1 5CAD2163
+P 5850 3500
+F 0 "RGB36" H 6100 3700 50  0000 L CNN
+F 1 "WS2812B" H 6050 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5900 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 3125 50  0001 L TNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB37
+U 1 1 5CAD21E9
+P 6700 3500
+F 0 "RGB37" H 6950 3700 50  0000 L CNN
+F 1 "WS2812B" H 6900 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 6750 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 3125 50  0001 L TNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB38
+U 1 1 5CAD2261
+P 7400 3500
+F 0 "RGB38" H 7650 3700 50  0000 L CNN
+F 1 "WS2812B" H 7600 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 7450 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 3125 50  0001 L TNN
+	1    7400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB39
+U 1 1 5CAD22E7
+P 8350 3500
+F 0 "RGB39" H 8600 3700 50  0000 L CNN
+F 1 "WS2812B" H 8550 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 8400 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8450 3125 50  0001 L TNN
+	1    8350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB40
+U 1 1 5CAD23FD
+P 9250 3500
+F 0 "RGB40" H 9500 3700 50  0000 L CNN
+F 1 "WS2812B" H 9450 3300 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 9300 3200 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9350 3125 50  0001 L TNN
+	1    9250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB41
+U 1 1 5CAD2599
+P 1300 4300
+F 0 "RGB41" H 1550 4500 50  0000 L CNN
+F 1 "WS2812B" H 1500 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 1350 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 3925 50  0001 L TNN
+	1    1300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB42
+U 1 1 5CAD261D
+P 2300 4300
+F 0 "RGB42" H 2550 4500 50  0000 L CNN
+F 1 "WS2812B" H 2500 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 2350 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 3925 50  0001 L TNN
+	1    2300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB43
+U 1 1 5CAD26A3
+P 3200 4300
+F 0 "RGB43" H 3450 4500 50  0000 L CNN
+F 1 "WS2812B" H 3400 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 3250 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3300 3925 50  0001 L TNN
+	1    3200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB44
+U 1 1 5CAD272B
+P 4150 4300
+F 0 "RGB44" H 4400 4500 50  0000 L CNN
+F 1 "WS2812B" H 4350 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 4200 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4250 3925 50  0001 L TNN
+	1    4150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB45
+U 1 1 5CAD2865
+P 5050 4300
+F 0 "RGB45" H 5300 4500 50  0000 L CNN
+F 1 "WS2812B" H 5250 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5100 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5150 3925 50  0001 L TNN
+	1    5050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB46
+U 1 1 5CAD28EF
+P 5850 4300
+F 0 "RGB46" H 6100 4500 50  0000 L CNN
+F 1 "WS2812B" H 6050 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5900 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 3925 50  0001 L TNN
+	1    5850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB47
+U 1 1 5CAD2977
+P 6700 4300
+F 0 "RGB47" H 6950 4500 50  0000 L CNN
+F 1 "WS2812B" H 6900 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 6750 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 3925 50  0001 L TNN
+	1    6700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB48
+U 1 1 5CAD29FF
+P 7400 4300
+F 0 "RGB48" H 7650 4500 50  0000 L CNN
+F 1 "WS2812B" H 7600 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 7450 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 3925 50  0001 L TNN
+	1    7400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB49
+U 1 1 5CAD2AEB
+P 8350 4300
+F 0 "RGB49" H 8600 4450 50  0000 L CNN
+F 1 "WS2812B" H 8550 4100 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 8400 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8450 3925 50  0001 L TNN
+	1    8350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB50
+U 1 1 5CAD2C82
+P 9250 4300
+F 0 "RGB50" H 9500 4500 50  0000 L CNN
+F 1 "WS2812B" H 9450 4150 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 9300 4000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9350 3925 50  0001 L TNN
+	1    9250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB51
+U 1 1 5CAD3E44
+P 1300 5150
+F 0 "RGB51" H 1550 5350 50  0000 L CNN
+F 1 "WS2812B" H 1500 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 1350 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 4775 50  0001 L TNN
+	1    1300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB52
+U 1 1 5CAD3F4A
+P 2300 5150
+F 0 "RGB52" H 2550 5350 50  0000 L CNN
+F 1 "WS2812B" H 2500 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 2350 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 4775 50  0001 L TNN
+	1    2300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB53
+U 1 1 5CAD3FE0
+P 3200 5150
+F 0 "RGB53" H 3450 5350 50  0000 L CNN
+F 1 "WS2812B" H 3400 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 3250 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3300 4775 50  0001 L TNN
+	1    3200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB54
+U 1 1 5CAD40F2
+P 4150 5150
+F 0 "RGB54" H 4400 5350 50  0000 L CNN
+F 1 "WS2812B" H 4350 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 4200 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4250 4775 50  0001 L TNN
+	1    4150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB55
+U 1 1 5CAD4196
+P 5050 5150
+F 0 "RGB55" H 5300 5350 50  0000 L CNN
+F 1 "WS2812B" H 5250 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5100 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5150 4775 50  0001 L TNN
+	1    5050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB56
+U 1 1 5CAD4236
+P 5850 5150
+F 0 "RGB56" H 6100 5350 50  0000 L CNN
+F 1 "WS2812B" H 6050 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 5900 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 4775 50  0001 L TNN
+	1    5850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB57
+U 1 1 5CAD42D8
+P 6700 5150
+F 0 "RGB57" H 6950 5350 50  0000 L CNN
+F 1 "WS2812B" H 6900 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 6750 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 4775 50  0001 L TNN
+	1    6700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB58
+U 1 1 5CAD4376
+P 7400 5150
+F 0 "RGB58" H 7650 5350 50  0000 L CNN
+F 1 "WS2812B" H 7600 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 7450 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 4775 50  0001 L TNN
+	1    7400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB59
+U 1 1 5CAD44CC
+P 8350 5150
+F 0 "RGB59" H 8600 5350 50  0000 L CNN
+F 1 "WS2812B" H 8550 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 8400 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8450 4775 50  0001 L TNN
+	1    8350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB60
+U 1 1 5CAD4574
+P 9250 5150
+F 0 "RGB60" H 9500 5350 50  0000 L CNN
+F 1 "WS2812B" H 9500 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 9300 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9350 4775 50  0001 L TNN
+	1    9250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB61
+U 1 1 5CAD478A
+P 1300 5950
+F 0 "RGB61" H 1550 6150 50  0000 L CNN
+F 1 "WS2812B" H 1500 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1350 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 5575 50  0001 L TNN
+	1    1300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB62
+U 1 1 5CAD483E
+P 2300 5950
+F 0 "RGB62" H 2550 6150 50  0000 L CNN
+F 1 "WS2812B" H 2500 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2350 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 5575 50  0001 L TNN
+	1    2300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB63
+U 1 1 5CAD48E8
+P 3200 5950
+F 0 "RGB63" H 3450 6150 50  0000 L CNN
+F 1 "WS2812B" H 3400 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3250 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3300 5575 50  0001 L TNN
+	1    3200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB64
+U 1 1 5CAD4994
+P 4150 5950
+F 0 "RGB64" H 4400 6150 50  0000 L CNN
+F 1 "WS2812B" H 4350 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4200 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4250 5575 50  0001 L TNN
+	1    4150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB65
+U 1 1 5CAD4A44
+P 5050 5950
+F 0 "RGB65" H 5300 6150 50  0000 L CNN
+F 1 "WS2812B" H 5250 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5100 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5150 5575 50  0001 L TNN
+	1    5050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB66
+U 1 1 5CAD4AFC
+P 5850 5950
+F 0 "RGB66" H 6100 6150 50  0000 L CNN
+F 1 "WS2812B" H 6050 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5900 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 5575 50  0001 L TNN
+	1    5850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB67
+U 1 1 5CAD4C36
+P 6700 5950
+F 0 "RGB67" H 6950 6150 50  0000 L CNN
+F 1 "WS2812B" H 6900 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6750 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 5575 50  0001 L TNN
+	1    6700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB68
+U 1 1 5CAD4CF4
+P 7400 5950
+F 0 "RGB68" H 7650 6150 50  0000 L CNN
+F 1 "WS2812B" H 7600 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7450 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 5575 50  0001 L TNN
+	1    7400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB69
+U 1 1 5CAD4DAE
+P 8350 5950
+F 0 "RGB69" H 8600 6150 50  0000 L CNN
+F 1 "WS2812B" H 8550 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8400 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8450 5575 50  0001 L TNN
+	1    8350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB70
+U 1 1 5CAD4EA9
+P 9250 5950
+F 0 "RGB70" H 9500 6150 50  0000 L CNN
+F 1 "WS2812B" H 9450 5750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9300 5650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9350 5575 50  0001 L TNN
+	1    9250 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB71
+U 1 1 5CAD5151
+P 1300 6750
+F 0 "RGB71" H 1550 6950 50  0000 L CNN
+F 1 "WS2812B" H 1500 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1350 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 6375 50  0001 L TNN
+	1    1300 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB72
+U 1 1 5CAD5211
+P 2300 6750
+F 0 "RGB72" H 2550 6950 50  0000 L CNN
+F 1 "WS2812B" H 2500 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2350 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 6375 50  0001 L TNN
+	1    2300 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB73
+U 1 1 5CAD52D3
+P 3200 6750
+F 0 "RGB73" H 3450 6950 50  0000 L CNN
+F 1 "WS2812B" H 3400 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3250 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3300 6375 50  0001 L TNN
+	1    3200 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB74
+U 1 1 5CAD5395
+P 4150 6750
+F 0 "RGB74" H 4400 6950 50  0000 L CNN
+F 1 "WS2812B" H 4350 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4200 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4250 6375 50  0001 L TNN
+	1    4150 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB75
+U 1 1 5CAD54F1
+P 5050 6750
+F 0 "RGB75" H 5300 6950 50  0000 L CNN
+F 1 "WS2812B" H 5250 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5100 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5150 6375 50  0001 L TNN
+	1    5050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB76
+U 1 1 5CAD55BD
+P 5850 6750
+F 0 "RGB76" H 6100 6950 50  0000 L CNN
+F 1 "WS2812B" H 6050 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5900 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 6375 50  0001 L TNN
+	1    5850 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB77
+U 1 1 5CAD5687
+P 6700 6750
+F 0 "RGB77" H 6950 6950 50  0000 L CNN
+F 1 "WS2812B" H 6900 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6750 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 6375 50  0001 L TNN
+	1    6700 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB78
+U 1 1 5CAD5757
+P 7400 6750
+F 0 "RGB78" H 7650 6950 50  0000 L CNN
+F 1 "WS2812B" H 7600 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7450 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 6375 50  0001 L TNN
+	1    7400 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB79
+U 1 1 5CAD582F
+P 8350 6750
+F 0 "RGB79" H 8600 6950 50  0000 L CNN
+F 1 "WS2812B" H 8550 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8400 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8450 6375 50  0001 L TNN
+	1    8350 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB80
+U 1 1 5CAD596A
+P 9250 6750
+F 0 "RGB80" H 9500 6900 50  0000 L CNN
+F 1 "WS2812B" H 9500 6550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9300 6450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9350 6375 50  0001 L TNN
+	1    9250 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 950  2000 950 
+Wire Wire Line
+	2600 950  2900 950 
+Wire Wire Line
+	3500 950  3850 950 
+Wire Wire Line
+	4450 950  4750 950 
+Wire Wire Line
+	5350 950  5550 950 
+Wire Wire Line
+	6150 950  6350 950 
+Wire Wire Line
+	6950 950  7100 950 
+Wire Wire Line
+	8650 950  8950 950 
+Wire Wire Line
+	9550 950  9550 1400
+Wire Wire Line
+	9550 1400 850  1400
+Wire Wire Line
+	850  1400 850  1900
+Wire Wire Line
+	850  1900 1000 1900
+Wire Wire Line
+	1600 1900 2000 1900
+Wire Wire Line
+	2600 1900 2900 1900
+Wire Wire Line
+	3500 1900 3850 1900
+Wire Wire Line
+	4450 1900 4750 1900
+Wire Wire Line
+	5350 1900 5550 1900
+Wire Wire Line
+	6150 1900 6400 1900
+Wire Wire Line
+	7000 1900 7100 1900
+Wire Wire Line
+	7700 1900 8050 1900
+Wire Wire Line
+	8650 1900 8950 1900
+Wire Wire Line
+	9550 1900 9550 2300
+Wire Wire Line
+	9550 2300 850  2300
+Wire Wire Line
+	850  2300 850  2700
+Wire Wire Line
+	850  2700 1000 2700
+Wire Wire Line
+	1600 2700 2000 2700
+Wire Wire Line
+	2600 2700 2900 2700
+Wire Wire Line
+	3500 2700 3850 2700
+Wire Wire Line
+	4450 2700 4750 2700
+Wire Wire Line
+	5350 2700 5550 2700
+Wire Wire Line
+	6150 2700 6400 2700
+Wire Wire Line
+	7000 2700 7100 2700
+Wire Wire Line
+	7700 2700 8050 2700
+Wire Wire Line
+	8650 2700 8950 2700
+Wire Wire Line
+	9550 2700 9550 3100
+Wire Wire Line
+	9550 3100 850  3100
+Wire Wire Line
+	850  3100 850  3500
+Wire Wire Line
+	850  3500 1000 3500
+Wire Wire Line
+	1600 3500 2000 3500
+Wire Wire Line
+	2600 3500 2900 3500
+Wire Wire Line
+	3500 3500 3850 3500
+Wire Wire Line
+	4450 3500 4750 3500
+Wire Wire Line
+	5350 3500 5550 3500
+Wire Wire Line
+	6150 3500 6400 3500
+Wire Wire Line
+	7000 3500 7100 3500
+Wire Wire Line
+	7700 3500 8050 3500
+Wire Wire Line
+	8650 3500 8950 3500
+Wire Wire Line
+	9550 3500 9550 3900
+Wire Wire Line
+	9550 3900 850  3900
+Wire Wire Line
+	850  3900 850  4300
+Wire Wire Line
+	850  4300 1000 4300
+Wire Wire Line
+	1600 4300 2000 4300
+Wire Wire Line
+	2600 4300 2900 4300
+Wire Wire Line
+	3500 4300 3850 4300
+Wire Wire Line
+	4450 4300 4750 4300
+Wire Wire Line
+	5350 4300 5550 4300
+Wire Wire Line
+	6150 4300 6400 4300
+Wire Wire Line
+	7000 4300 7100 4300
+Wire Wire Line
+	7700 4300 8050 4300
+Wire Wire Line
+	8650 4300 8950 4300
+Wire Wire Line
+	9550 4300 9550 4750
+Wire Wire Line
+	9550 4750 850  4750
+Wire Wire Line
+	850  4750 850  5150
+Wire Wire Line
+	850  5150 1000 5150
+Wire Wire Line
+	1600 5150 2000 5150
+Wire Wire Line
+	2600 5150 2900 5150
+Wire Wire Line
+	3500 5150 3850 5150
+Wire Wire Line
+	4450 5150 4750 5150
+Wire Wire Line
+	5350 5150 5550 5150
+Wire Wire Line
+	6150 5150 6400 5150
+Wire Wire Line
+	7000 5150 7100 5150
+Wire Wire Line
+	7700 5150 8050 5150
+Wire Wire Line
+	8650 5150 8950 5150
+Wire Wire Line
+	1600 5950 2000 5950
+Wire Wire Line
+	2600 5950 2900 5950
+Wire Wire Line
+	3500 5950 3850 5950
+Wire Wire Line
+	5350 5950 5550 5950
+Wire Wire Line
+	6150 5950 6400 5950
+Wire Wire Line
+	7000 5950 7100 5950
+Wire Wire Line
+	7700 5950 8050 5950
+Wire Wire Line
+	8650 5950 8950 5950
+Wire Wire Line
+	9550 5950 9550 6350
+Wire Wire Line
+	9550 6350 850  6350
+Wire Wire Line
+	850  6350 850  6750
+Wire Wire Line
+	850  6750 1000 6750
+Wire Wire Line
+	1600 6750 2000 6750
+Wire Wire Line
+	2600 6750 2900 6750
+Wire Wire Line
+	3500 6750 3850 6750
+Wire Wire Line
+	4450 6750 4750 6750
+Wire Wire Line
+	5350 6750 5550 6750
+Wire Wire Line
+	6150 6750 6400 6750
+Wire Wire Line
+	7000 6750 7100 6750
+Wire Wire Line
+	7700 6750 8050 6750
+Wire Wire Line
+	8650 6750 8950 6750
+Wire Wire Line
+	1300 650  2300 650 
+Connection ~ 2300 650 
+Wire Wire Line
+	2300 650  3200 650 
+Connection ~ 3200 650 
+Wire Wire Line
+	3200 650  4150 650 
+Connection ~ 4150 650 
+Wire Wire Line
+	4150 650  5050 650 
+Connection ~ 5050 650 
+Connection ~ 5850 650 
+Wire Wire Line
+	5850 650  6650 650 
+Connection ~ 6650 650 
+Wire Wire Line
+	6650 650  7400 650 
+Connection ~ 7400 650 
+Wire Wire Line
+	7400 650  8350 650 
+Connection ~ 8350 650 
+Wire Wire Line
+	8350 650  9250 650 
+Wire Wire Line
+	1300 1250 2300 1250
+Connection ~ 2300 1250
+Wire Wire Line
+	2300 1250 3200 1250
+Connection ~ 3200 1250
+Wire Wire Line
+	3200 1250 4150 1250
+Connection ~ 4150 1250
+Wire Wire Line
+	4150 1250 5050 1250
+Connection ~ 5050 1250
+Wire Wire Line
+	5050 1250 5850 1250
+Connection ~ 5850 1250
+Wire Wire Line
+	5850 1250 6650 1250
+Connection ~ 6650 1250
+Wire Wire Line
+	6650 1250 7400 1250
+Connection ~ 7400 1250
+Wire Wire Line
+	7400 1250 8350 1250
+Connection ~ 8350 1250
+Wire Wire Line
+	8350 1250 9250 1250
+Wire Wire Line
+	1300 1600 2300 1600
+Connection ~ 2300 1600
+Wire Wire Line
+	2300 1600 3200 1600
+Connection ~ 3200 1600
+Wire Wire Line
+	3200 1600 4150 1600
+Connection ~ 4150 1600
+Wire Wire Line
+	4150 1600 5050 1600
+Connection ~ 5050 1600
+Wire Wire Line
+	5050 1600 5850 1600
+Connection ~ 5850 1600
+Wire Wire Line
+	5850 1600 6700 1600
+Connection ~ 6700 1600
+Wire Wire Line
+	6700 1600 7400 1600
+Connection ~ 7400 1600
+Wire Wire Line
+	7400 1600 8350 1600
+Connection ~ 8350 1600
+Wire Wire Line
+	8350 1600 9250 1600
+Wire Wire Line
+	9250 2200 8350 2200
+Connection ~ 2300 2200
+Wire Wire Line
+	2300 2200 1300 2200
+Connection ~ 3200 2200
+Wire Wire Line
+	3200 2200 2300 2200
+Connection ~ 4150 2200
+Wire Wire Line
+	4150 2200 3200 2200
+Connection ~ 5050 2200
+Wire Wire Line
+	5050 2200 4150 2200
+Connection ~ 5850 2200
+Wire Wire Line
+	5850 2200 5050 2200
+Connection ~ 6700 2200
+Wire Wire Line
+	6700 2200 5850 2200
+Connection ~ 7400 2200
+Wire Wire Line
+	7400 2200 6700 2200
+Connection ~ 8350 2200
+Wire Wire Line
+	8350 2200 7400 2200
+Wire Wire Line
+	1300 2400 2300 2400
+Connection ~ 2300 2400
+Wire Wire Line
+	2300 2400 3200 2400
+Connection ~ 3200 2400
+Wire Wire Line
+	3200 2400 4150 2400
+Connection ~ 4150 2400
+Wire Wire Line
+	4150 2400 5050 2400
+Connection ~ 5050 2400
+Wire Wire Line
+	5050 2400 5850 2400
+Connection ~ 5850 2400
+Wire Wire Line
+	5850 2400 6700 2400
+Connection ~ 6700 2400
+Wire Wire Line
+	6700 2400 7400 2400
+Connection ~ 7400 2400
+Wire Wire Line
+	7400 2400 8350 2400
+Connection ~ 8350 2400
+Wire Wire Line
+	8350 2400 9250 2400
+Wire Wire Line
+	9250 3000 8350 3000
+Connection ~ 2300 3000
+Wire Wire Line
+	2300 3000 1300 3000
+Connection ~ 3200 3000
+Wire Wire Line
+	3200 3000 2300 3000
+Connection ~ 4150 3000
+Wire Wire Line
+	4150 3000 3200 3000
+Connection ~ 5050 3000
+Wire Wire Line
+	5050 3000 4150 3000
+Connection ~ 5850 3000
+Wire Wire Line
+	5850 3000 5050 3000
+Connection ~ 6700 3000
+Wire Wire Line
+	6700 3000 5850 3000
+Connection ~ 7400 3000
+Wire Wire Line
+	7400 3000 6700 3000
+Connection ~ 8350 3000
+Wire Wire Line
+	8350 3000 7400 3000
+Wire Wire Line
+	1300 3200 2300 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2300 3200 3200 3200
+Connection ~ 3200 3200
+Wire Wire Line
+	3200 3200 4150 3200
+Connection ~ 4150 3200
+Wire Wire Line
+	4150 3200 5050 3200
+Connection ~ 5050 3200
+Wire Wire Line
+	5050 3200 5850 3200
+Connection ~ 5850 3200
+Wire Wire Line
+	5850 3200 6700 3200
+Connection ~ 6700 3200
+Wire Wire Line
+	6700 3200 7400 3200
+Connection ~ 7400 3200
+Wire Wire Line
+	7400 3200 8350 3200
+Connection ~ 8350 3200
+Wire Wire Line
+	8350 3200 9250 3200
+Wire Wire Line
+	9250 3800 8350 3800
+Connection ~ 2300 3800
+Wire Wire Line
+	2300 3800 1300 3800
+Connection ~ 3200 3800
+Wire Wire Line
+	3200 3800 2300 3800
+Connection ~ 4150 3800
+Wire Wire Line
+	4150 3800 3200 3800
+Connection ~ 5050 3800
+Wire Wire Line
+	5050 3800 4150 3800
+Connection ~ 5850 3800
+Wire Wire Line
+	5850 3800 5050 3800
+Connection ~ 6700 3800
+Wire Wire Line
+	6700 3800 5850 3800
+Connection ~ 7400 3800
+Wire Wire Line
+	7400 3800 6700 3800
+Connection ~ 8350 3800
+Wire Wire Line
+	8350 3800 7400 3800
+Wire Wire Line
+	1300 4000 2300 4000
+Connection ~ 2300 4000
+Wire Wire Line
+	2300 4000 3200 4000
+Connection ~ 3200 4000
+Wire Wire Line
+	3200 4000 4150 4000
+Connection ~ 4150 4000
+Wire Wire Line
+	4150 4000 5050 4000
+Connection ~ 5050 4000
+Wire Wire Line
+	5050 4000 5850 4000
+Connection ~ 5850 4000
+Connection ~ 6700 4000
+Wire Wire Line
+	6700 4000 7400 4000
+Connection ~ 7400 4000
+Wire Wire Line
+	7400 4000 8350 4000
+Connection ~ 8350 4000
+Wire Wire Line
+	8350 4000 9250 4000
+Wire Wire Line
+	9250 4600 8350 4600
+Connection ~ 2300 4600
+Wire Wire Line
+	2300 4600 1300 4600
+Connection ~ 3200 4600
+Wire Wire Line
+	3200 4600 2300 4600
+Connection ~ 4150 4600
+Wire Wire Line
+	4150 4600 3200 4600
+Connection ~ 5050 4600
+Wire Wire Line
+	5050 4600 4150 4600
+Connection ~ 5850 4600
+Wire Wire Line
+	5850 4600 5050 4600
+Connection ~ 6700 4600
+Wire Wire Line
+	6700 4600 5850 4600
+Connection ~ 7400 4600
+Wire Wire Line
+	7400 4600 6700 4600
+Connection ~ 8350 4600
+Wire Wire Line
+	8350 4600 7400 4600
+Wire Wire Line
+	1300 4850 2300 4850
+Connection ~ 2300 4850
+Wire Wire Line
+	2300 4850 3200 4850
+Connection ~ 3200 4850
+Wire Wire Line
+	3200 4850 4150 4850
+Connection ~ 4150 4850
+Wire Wire Line
+	4150 4850 5050 4850
+Connection ~ 5050 4850
+Wire Wire Line
+	5050 4850 5850 4850
+Connection ~ 5850 4850
+Wire Wire Line
+	5850 4850 6700 4850
+Connection ~ 6700 4850
+Wire Wire Line
+	6700 4850 7400 4850
+Connection ~ 7400 4850
+Wire Wire Line
+	7400 4850 8350 4850
+Connection ~ 8350 4850
+Wire Wire Line
+	8350 4850 9250 4850
+Wire Wire Line
+	9250 5450 8350 5450
+Connection ~ 2300 5450
+Wire Wire Line
+	2300 5450 1300 5450
+Connection ~ 3200 5450
+Wire Wire Line
+	3200 5450 2300 5450
+Connection ~ 4150 5450
+Wire Wire Line
+	4150 5450 3200 5450
+Connection ~ 5050 5450
+Connection ~ 5850 5450
+Wire Wire Line
+	5850 5450 5050 5450
+Connection ~ 6700 5450
+Wire Wire Line
+	6700 5450 5850 5450
+Connection ~ 7400 5450
+Wire Wire Line
+	7400 5450 6700 5450
+Connection ~ 8350 5450
+Wire Wire Line
+	8350 5450 7400 5450
+Wire Wire Line
+	1300 5650 2300 5650
+Connection ~ 2300 5650
+Wire Wire Line
+	2300 5650 3200 5650
+Connection ~ 3200 5650
+Wire Wire Line
+	3200 5650 4150 5650
+Connection ~ 4150 5650
+Wire Wire Line
+	4150 5650 5050 5650
+Connection ~ 5050 5650
+Wire Wire Line
+	5050 5650 5850 5650
+Connection ~ 5850 5650
+Wire Wire Line
+	5850 5650 6700 5650
+Connection ~ 6700 5650
+Wire Wire Line
+	6700 5650 7400 5650
+Connection ~ 7400 5650
+Wire Wire Line
+	7400 5650 8350 5650
+Connection ~ 8350 5650
+Wire Wire Line
+	8350 5650 9250 5650
+Wire Wire Line
+	9250 6250 8350 6250
+Connection ~ 2300 6250
+Wire Wire Line
+	2300 6250 1300 6250
+Connection ~ 3200 6250
+Wire Wire Line
+	3200 6250 2300 6250
+Connection ~ 4150 6250
+Wire Wire Line
+	4150 6250 3200 6250
+Connection ~ 5050 6250
+Wire Wire Line
+	5050 6250 4150 6250
+Connection ~ 5850 6250
+Wire Wire Line
+	5850 6250 5050 6250
+Connection ~ 6700 6250
+Wire Wire Line
+	6700 6250 5850 6250
+Connection ~ 7400 6250
+Wire Wire Line
+	7400 6250 6700 6250
+Connection ~ 8350 6250
+Wire Wire Line
+	8350 6250 7400 6250
+Connection ~ 2300 6450
+Wire Wire Line
+	2300 6450 3200 6450
+Connection ~ 3200 6450
+Wire Wire Line
+	3200 6450 4150 6450
+Connection ~ 4150 6450
+Wire Wire Line
+	4150 6450 5050 6450
+Connection ~ 5050 6450
+Wire Wire Line
+	5050 6450 5850 6450
+Connection ~ 5850 6450
+Wire Wire Line
+	5850 6450 6700 6450
+Connection ~ 6700 6450
+Wire Wire Line
+	6700 6450 7400 6450
+Connection ~ 7400 6450
+Wire Wire Line
+	7400 6450 8350 6450
+Connection ~ 8350 6450
+Wire Wire Line
+	8350 6450 9250 6450
+Wire Wire Line
+	9250 7050 8350 7050
+Connection ~ 2300 7050
+Wire Wire Line
+	2300 7050 1300 7050
+Connection ~ 3200 7050
+Wire Wire Line
+	3200 7050 2300 7050
+Connection ~ 4150 7050
+Wire Wire Line
+	4150 7050 3200 7050
+Connection ~ 5050 7050
+Wire Wire Line
+	5050 7050 4150 7050
+Connection ~ 6700 7050
+Connection ~ 7400 7050
+Wire Wire Line
+	7400 7050 6700 7050
+Connection ~ 8350 7050
+Wire Wire Line
+	8350 7050 7400 7050
+Wire Wire Line
+	9250 650  10600 650 
+Wire Wire Line
+	10600 650  10600 1600
+Wire Wire Line
+	10600 1600 9250 1600
+Connection ~ 9250 650 
+Connection ~ 9250 1600
+Wire Wire Line
+	10600 1600 10600 2400
+Wire Wire Line
+	10600 2400 9250 2400
+Connection ~ 10600 1600
+Connection ~ 9250 2400
+Wire Wire Line
+	10600 2400 10600 3200
+Wire Wire Line
+	10600 3200 9250 3200
+Connection ~ 10600 2400
+Connection ~ 9250 3200
+Wire Wire Line
+	10600 3200 10600 4000
+Wire Wire Line
+	10600 4000 9250 4000
+Connection ~ 10600 3200
+Connection ~ 9250 4000
+Wire Wire Line
+	10600 4000 10600 4850
+Wire Wire Line
+	10600 4850 9950 4850
+Connection ~ 10600 4000
+Connection ~ 9250 4850
+Wire Wire Line
+	10600 4850 10600 5650
+Wire Wire Line
+	10600 5650 9250 5650
+Connection ~ 10600 4850
+Connection ~ 9250 5650
+Wire Wire Line
+	10600 5650 10600 6450
+Connection ~ 10600 5650
+Connection ~ 9250 6450
+Wire Wire Line
+	1300 1250 600  1250
+Wire Wire Line
+	600  1250 600  2200
+Wire Wire Line
+	600  2200 1300 2200
+Connection ~ 1300 1250
+Connection ~ 1300 2200
+Wire Wire Line
+	600  2200 600  3000
+Wire Wire Line
+	600  3000 1300 3000
+Connection ~ 600  2200
+Connection ~ 1300 3000
+Wire Wire Line
+	600  3000 600  3800
+Wire Wire Line
+	600  3800 1300 3800
+Connection ~ 600  3000
+Connection ~ 1300 3800
+Wire Wire Line
+	600  3800 600  4600
+Wire Wire Line
+	600  4600 1300 4600
+Connection ~ 600  3800
+Connection ~ 1300 4600
+Wire Wire Line
+	600  4600 600  5450
+Wire Wire Line
+	600  5450 1300 5450
+Connection ~ 600  4600
+Connection ~ 1300 5450
+Wire Wire Line
+	600  5450 600  6250
+Wire Wire Line
+	600  6250 1300 6250
+Connection ~ 600  5450
+Connection ~ 1300 6250
+Wire Wire Line
+	600  6250 600  7050
+Wire Wire Line
+	600  7050 1300 7050
+Connection ~ 600  6250
+Connection ~ 1300 7050
+$Comp
+L power1:VCC #PWR0105
+U 1 1 5CDE39ED
+P 10250 6450
+F 0 "#PWR0105" H 10250 6300 50  0001 C CNN
+F 1 "VCC" H 10300 6650 50  0000 C CNN
+F 2 "" H 10250 6450 50  0001 C CNN
+F 3 "" H 10250 6450 50  0001 C CNN
+	1    10250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:GND #PWR0106
+U 1 1 5CDE400F
+P 600 7200
+F 0 "#PWR0106" H 600 6950 50  0001 C CNN
+F 1 "GND" H 650 7000 50  0000 C CNN
+F 2 "" H 600 7200 50  0001 C CNN
+F 3 "" H 600 7200 50  0001 C CNN
+	1    600  7200
+	1    0    0    -1  
+$EndComp
+Connection ~ 600  7050
+Wire Wire Line
+	7700 950  8050 950 
+Wire Wire Line
+	4450 5950 4750 5950
+Text HLabel 1000 5950 0    60   3State ~ 0
+DIN_D
+Text HLabel 1000 950  0    60   3State ~ 0
+DIN_M
+Text HLabel 10250 5150 2    60   3State ~ 0
+DOUT_M
+Text HLabel 9550 6750 2    60   3State ~ 0
+DOUT_D
+Wire Wire Line
+	600  7050 600  7200
+Wire Wire Line
+	9250 6450 10250 6450
+Connection ~ 10250 6450
+Wire Wire Line
+	10250 6450 10600 6450
+Wire Wire Line
+	1300 6450 2300 6450
+Wire Wire Line
+	5050 7050 5850 7050
+Connection ~ 5850 7050
+Wire Wire Line
+	5850 7050 6700 7050
+Wire Wire Line
+	5850 4000 6700 4000
+Wire Wire Line
+	4150 5450 5050 5450
+Wire Wire Line
+	5050 650  5850 650 
+$Comp
+L LED:WS2812B RGB81
+U 1 1 5CAE99EE
+P 9950 5150
+F 0 "RGB81" H 10200 5350 50  0000 L CNN
+F 1 "WS2812B" H 10200 4950 50  0000 L CNN
+F 2 "WS2812B:WS2812-3528-with-sik" H 10000 4850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10050 4775 50  0001 L TNN
+	1    9950 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 4850
+Wire Wire Line
+	9950 4850 9250 4850
+Wire Wire Line
+	9550 5150 9650 5150
+Wire Wire Line
+	9250 5450 9950 5450
+Connection ~ 9250 5450
+$EndSCHEMATC
