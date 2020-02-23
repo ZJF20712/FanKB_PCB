@@ -1070,7 +1070,7 @@ D-
 Text Label 2450 5850 0    60   ~ 0
 D+
 $Comp
-L keyboard-rescue:MDBT40-mdbt40 U2
+L mdbt40:MDBT40 U2
 U 1 1 5CB207A8
 P 9700 5050
 F 0 "U2" H 9650 6097 60  0000 C CNN
@@ -1091,11 +1091,17 @@ Wire Wire Line
 Wire Wire Line
 	10650 4950 11050 4950
 Wire Wire Line
+	8650 4250 8650 4350
+Wire Wire Line
 	10650 4250 10650 3950
 Wire Wire Line
 	10650 3950 10050 3950
 Wire Wire Line
+	8650 3950 8650 4250
+Connection ~ 8650 4250
+Wire Wire Line
 	10650 4250 10250 4250
+Connection ~ 10650 4250
 Wire Wire Line
 	9050 6350 9050 5800
 Wire Wire Line
@@ -1162,6 +1168,7 @@ F 3 "" H 10250 6350 50  0001 C CNN
 	1    10250 6350
 	1    0    0    -1  
 $EndComp
+Connection ~ 10250 6350
 $Comp
 L power1:VCC #PWR0102
 U 1 1 5CC8986D
@@ -1185,6 +1192,9 @@ F 3 "" H 8650 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8650 4850
+Wire Wire Line
+	8650 4350 8650 4450
+Connection ~ 8650 4350
 Connection ~ 10050 3950
 Wire Wire Line
 	10050 3950 8650 3950
@@ -1285,8 +1295,6 @@ Text Label 8250 5450 0    60   ~ 0
 IRQ
 Text Label 5600 6150 0    60   ~ 0
 IRQ
-Wire Wire Line
-	8650 3950 8650 4450
 Wire Bus Line
 	6200 3300 6200 6500
 Wire Bus Line

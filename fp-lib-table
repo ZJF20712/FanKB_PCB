@@ -22,7 +22,4 @@
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/lib/Type-C.pretty-master)(options "")(descr ""))
   (lib (name WS2812B)(type KiCad)(uri ${KIPRJMOD}/lib/WS2812B.pretty-master)(options "")(descr ""))
   (lib (name mdbt40_carrier)(type KiCad)(uri ${KIPRJMOD}/lib/mdbt40_carrier.pretty)(options "")(descr ""))
-  (lib (name Package_DFN_QFN)(type KiCad)(uri ${KICAD_FOOTPRINT_DIR}/Package_DFN_QFN.pretty)(options "")(descr ""))
-  (lib (name Button_Switch_THT)(type KiCad)(uri ${KICAD_FOOTPRINT_DIR}/Button_Switch_THT.pretty)(options "")(descr ""))
-  (lib (name Resistor_SMD)(type KiCad)(uri ${KICAD_FOOTPRINT_DIR}/Resistor_SMD.pretty)(options "")(descr ""))
 )
